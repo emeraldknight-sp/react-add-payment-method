@@ -1,5 +1,3 @@
 import styled from "styled-components";
 
-export const StyledCardCredit = styled.div`
-  
-`;
+export const StyledCardCredit = styled.div``;

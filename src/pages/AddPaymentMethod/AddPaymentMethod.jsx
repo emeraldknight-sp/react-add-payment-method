@@ -7,8 +7,8 @@ import { StyledAddPaymentMethod } from "./AddPaymentMethod.style";
 
 export const AddPaymentMethod = () => {
   const handleSubmit = (e) => {
-    e.preventDefault()
-  }
+    e.preventDefault();
+  };
 
   return (
     <StyledAddPaymentMethod>
