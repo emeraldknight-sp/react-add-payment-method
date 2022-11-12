@@ -17,6 +17,7 @@ export const StyledButton = styled.button`
 
   transition: filter 0.3s;
   cursor: pointer;
+  text-transform: uppercase;
 
   &:hover {
     filter: brightness(1.1);
