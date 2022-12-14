@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledForm = styled.form`
   display: flex;
   flex-direction: column;
-  width: 45%;
+  width: 100%;
   gap: 2rem;
 
   .form-content {
@@ -16,6 +16,11 @@ export const StyledForm = styled.form`
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+
+    span {
+      color: var(--cyan-500);
+      font-size: 10px;
+    }
   }
 
   .flex {
@@ -28,7 +33,7 @@ export const StyledForm = styled.form`
   }
 
   .flex .input-wrapper input {
-    width: 73%;
+    width: 60%;
   }
 
   label {
@@ -50,5 +55,31 @@ export const StyledForm = styled.form`
     color: var(--white);
     text-transform: uppercase;
     outline: none;
+  }
+
+  @media (min-width: 375px) {
+    .flex .input-wrapper input {
+      width: 67%;
+    }
+  }
+
+  @media (min-width: 375px) {
+    .flex .input-wrapper input {
+      width: 72%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .flex .input-wrapper input {
+      width: 84%;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    width: 300px;
+
+    .flex .input-wrapper input {
+      width: 72%;
+    }
   }
 `;
