@@ -63,7 +63,7 @@ export const StyledForm = styled.form`
     }
   }
 
-  @media (min-width: 375px) {
+  @media (min-width: 425px) {
     .flex .input-wrapper input {
       width: 72%;
     }
