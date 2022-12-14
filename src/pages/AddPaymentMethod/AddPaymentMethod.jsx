@@ -101,7 +101,6 @@ export const AddPaymentMethod = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    console.log(e)
     if (!toast.isActive(toastId.current)) {
       toastId.current = toast.success("Parabéns cartão adicionado!");
     }
